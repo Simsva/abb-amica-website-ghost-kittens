@@ -1,0 +1,91 @@
+body{
+    background-image: url("https://www.healthysleeptexas.com/wp-content/themes/hst/i/bg-body.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#title {
+    color: white;
+}
+  
+.flex-container {
+    display: flex;
+    font-size: 15px;
+    flex-direction: row;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    align-items: center;
+}
+
+.flex-container-row {
+    display: flex;
+    flex-direction: row;
+}
+
+@media (max-width: 800px) {
+    .flex-container {
+      flex-direction: column;
+    }
+  }
+
+#face1 {
+    height: 45px;
+    width:  45px;
+    margin: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 100%;
+    background-image: url("https://cdn.shopify.com/s/files/1/1061/1924/products/Happy_Emoji_Icon_5c9b7b25-b215-4457-922d-fef519a08b06_large.png?v=1571606090");
+}
+#face2 {
+    height: 45px;
+    width: 45px;
+    margin: 10px;
+    border-radius: 100%;
+    background-repeat: no-repeat;
+}
+#face3 {
+    height: 45px;
+    width: 45px;
+    margin: 10px;
+    border-radius: 100%;
+    background-repeat: no-repeat;
+}
+#face3 {
+    height: 45px;
+    width: 45px;
+    margin: 10px;
+    border-radius: 100%;
+    background-repeat: no-repeat;
+}
+#face4 {
+    height: 45px;
+    width: 45px;
+    margin: 10px;
+    border-radius: 100%;
+    background-repeat: no-repeat;
+}
+#face5 {
+    height: 45px;
+    width: 45px;
+    margin: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 100%;
+    background-image: url("https://cdn.shopify.com/s/files/1/1061/1924/products/Sleeping_Emoji_large.png?v=1571606036");
+}
+
+#number {
+    color: white;
+    margin: 30px;
+}
+
+#submit {
+    display: flex;
+    align-items: center;
+    color: white;
+    width: 200px;
+    
+}

@@ -1,11 +1,31 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>Amica projekt</title>
-  </head>
-  <body>
-    <h1>Amica projekt</h1>
-    <p>Temporary web page</p>
-    <p>Test</p>
-  </body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sleep</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>  
+</head>
+<body>
+    <div class="flex-container">
+        <h1 id="title">Hur trött känner du dig nu 1-5?</h1>
+        <div>
+            <button id="face1" onclick="submitAnswer()"></button>
+            <button id="face2" onclick="submitAnswer()"></button>
+            <button id="face3" onclick="submitAnswer()"></button>
+            <button id="face4" onclick="submitAnswer()"></button>
+            <button id="face5" onclick="submitAnswer()"></button>
+        </div>
+        <div class="flex-container-row">
+            <h2 id="number">1</h2>
+            <h2 id="number">2</h2>
+            <h2 id="number">3</h2>
+            <h2 id="number">4</h2>
+            <h2 id="number">5</h2>
+    </div>
+    <div>
+        <h3 id="submit"></h3>
+    </div>
+</body>
 </html>
